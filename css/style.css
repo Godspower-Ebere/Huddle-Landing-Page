@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background: linear-gradient(rgba(151, 245, 245, 0.3),rgba(151, 245, 245, 0.3)), url('../images/bg-hero-desktop.svg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.sec2 .center{
+    position: relative;
+    display: flex;
+    align-self:center;
+    justify-self: center;
+    margin-top: 100px;
+}
+.sec2 .center .text-center {
+    text-align: center;
+    left: 20%;
+    right: 20%;
+}
+.sec2 .center .text-center button{
+    width: 300px;
+}
+.footer{
+    margin-top: 100px;
+    padding: 150px;
+    padding-bottom: 20px;
+}
+.footer .row .logo{
+    width: 250px;
+}
+.footer .row .copy{
+    text-align: right;
+}
+.footer .row .icon img{
+    width: 20px;
+    cursor: pointer;
+}
+.footer .row .first .items{
+    color: white;
+}
+.footer .row .first .items .location{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:800px) {
+    .background .navbar img{
+        width: 150px;
+    }
+    .background .container .hero .first {
+        text-align: center;
+        margin-bottom: 30px;
+    } 
+    .sec2 .first{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec2 .second{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2 .third{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec2 .center .text-center {
+        text-align: center;
+        left: 0%;
+        right: 0%;
+    }
+    .footer{
+        margin-top: 100px;
+        padding: 150px 20px 20px 20px;
+    }
+    .footer .row .icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer .row .copy{
+        text-align: center;
+    }
+}
